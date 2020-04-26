@@ -1,0 +1,46 @@
+2020190533 정희서
+#1000
+A, B = input().split()
+A=int(A)
+B=int(B)
+print(A+B)
+#1001
+A, B = input().split()
+A=int(A)
+B=int(B)
+print(A-B)
+#10998
+A, B = input().split()
+A=int(A)
+B=int(B)
+print(A*B)
+#1008
+A, B = input().split()
+A=int(A)
+B=int(B)
+print(A/B)
+#10869
+A, B = input().split()
+A=int(A)
+B=int(B)
+print(A+B)
+print(A-B)
+print(A*B)
+print(A//B)
+print(A%B)
+#10430
+A, B, C = input().split()
+A=int(A)
+B=int(B)
+C=int(C)
+print((A+B)%C)
+print(((A%C) + (B%C))%C)
+print((A*B)%C)
+print(((A%C) * (B%C))%C)
+#2588
+A=input()
+B=input()
+print(int(A)*int(B[2]))
+print(int(A)*int(B[1]))
+print(int(A)*int(B[0]))
+print(int(A)*int(B))
